@@ -11,7 +11,41 @@
 </head>
 <body>
 	<div>
+		<div id='video-container'>
+			Your Friend
+			<video id='their-video' autoplay class='their-video'></video>
+			<video id='my-video' muted='false' autoplay class='my-video'></video>
+			You
+		</div>
+		<!--  Steps -->
+		<div>
+			<h2>Super-Simple PeerJS Video Chat with Manual Sginalling</h2>
 
+			<!-- Get local audio/video stream -->
+			<div id='step1'>
+				<p>Please click 'allow' on the top of the screen so we can access your webcam and mic for calls</p>
+				<div id='step1-error'>
+					<p>Failed to access the webcam and mic. Make sure to run this demo on an http server and click allow when asked for permission by the browser.</p>
+					<a href='#' id='step1-retry' class='button'>Try again</a>
+				</div>
+			</div>
+
+			<!-- Make calls to others -->
+			<div id='step2'>
+				<p>Your id:  <span id='my-id'>...</span></p>
+				<p>Share this id with others so they can call you.</p>
+				<p><span id='subhead'>Make a call</span><br />
+					<input type='text' placeholder='Call user id...' id='callto-id'>
+					<a href='#' id='make-call'>Call</a>
+			</div>
+
+			<!-- call in progress -->
+			<div id='step3'>
+				<p> currently in call with <span id='their-id'>...</span></p>
+				<p><a href='#' id='end-call'>End call</a></p>
+			</div>
+			
+		</div>
 
 	</div>
 	
