@@ -1,0 +1,25 @@
+{
+  "name": "webRTC",
+  "version": "0.0.1",
+  "description": "This project follows WebRTC Fundamentals course from Pluralsight website",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnergeticPixels/ps-webRTC-fundamentals.git"
+  },
+  "keywords": [
+    "html5",
+    "pluralsight",
+    "joes",
+    "coffeeshop"
+  ],
+  "author": "Anthony Jackman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnergeticPixels/ps-webRTC-fundamentals/issues"
+  },
+  "homepage": "https://github.com/EnergeticPixels/ps-webRTC-fundamentals#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
