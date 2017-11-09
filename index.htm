@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>WebRTC Fundamentals - PeerJS video chat with manual signaling</title>
-	<link rel='stylesheet' href='./css/style.css' />
-	<script src='./js/jquery-3.2.1.min.js'></script>
-	<script src='./js/peer.min.js'></script>
+	<link rel='stylesheet' href='css/style.css' />
+	<script src='js/jquery-3.2.1.min.js'></script>
+	<script src='js/peer.min.js'></script>
 </head>
 <body>
 	<div>
@@ -37,6 +37,7 @@
 				<p><span id='subhead'>Make a call</span><br />
 					<input type='text' placeholder='Call user id...' id='callto-id'>
 					<a href='#' id='make-call'>Call</a>
+				</p>
 			</div>
 
 			<!-- call in progress -->
@@ -44,11 +45,11 @@
 				<p> currently in call with <span id='their-id'>...</span></p>
 				<p><a href='#' id='end-call'>End call</a></p>
 			</div>
-			
+
 		</div>
 
 	</div>
 	
-	<script src='./js/my-peerjs.js'></script>
+	<script src='js/my-peerjs.js'></script>
 </body>
 </html>
